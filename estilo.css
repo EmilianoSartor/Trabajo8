@@ -207,9 +207,60 @@ section div p{
 
 footer{
     background-color: rgb(57, 57, 245);
-    min-height: 5vh;
+    min-height: 3vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.contform{
+    
+    display: flex;
+    justify-content: center;
+    margin: 8%;
+    ;
+}
+.form{
+    background-image:url(./img/MarioMoveJump.png);
+    border-radius: 10%;
+    border-style: groove;
+    width: 200px;
+    height: 300px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    border-color: black;
+    background-position: center;
+}
+
+.btn{
+    display: flex;
+    justify-content:center;
+}
+
+form label{
+    font-size: 15;
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    margin: 5px;
+}
+
+form input {
+    background-color: gainsboro;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+dl{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+    size:6cap;
+    margin-bottom: 15%;
+}
+dt{
+    color: black;
+}
+
+dd{
+    color: rgb(64, 79, 110);
+}
