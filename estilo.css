@@ -218,7 +218,7 @@ footer{
     display: flex;
     justify-content: center;
     margin: 8%;
-    ;
+    
 }
 .form{
     background-image:url(./img/MarioMoveJump.png);
@@ -250,7 +250,11 @@ form input {
     font-family: 'Times New Roman', Times, serif;
     
 }
-
+.info{
+    font-size: 38px;
+    color: darkred;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 dl{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: red;
@@ -262,5 +266,26 @@ dt{
 }
 
 dd{
+    
     color: rgb(64, 79, 110);
+}
+
+table{
+    width: 70%;
+    border-collapse: separate;
+}
+
+table caption{
+    
+    background-color: black;
+    color: azure;
+    font-size: 30px;
+}
+td, th{
+    padding: 8%;
+    text-align: left;
+    background-color: rgb(70, 172, 138);
+}
+.centered{
+    text-align: center;
 }
